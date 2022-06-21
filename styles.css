@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+.content {
+    margin: 0rem 7rem;
+}
+.navbar {
+    display: flex;
+    padding: 20px 15px 15px 0px;
+    border-bottom: 1px solid hsl(220, 14%, 90%);
+}
+.navlink {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 14px 10px 0px 10px;
+}
+.navchild {
+    margin-left: 30px;
+    font-family: 'Overpass', sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    color: hsl(220, 20%, 70%);
+}
+.navchild:hover {
+    color: hsl(220, 20%, 41%);
+    text-decoration: underline 3px hsl(26, 100%, 55%);
+    text-underline-offset: 1.9rem;
+}
+#sneak {
+    padding-top: 12px;
+}
+.navcon {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 31rem;
+}
+#cart {
+    margin-top: 14px;
+}
+.avatar {
+    margin: 5px 0px 0px 30px;
+    height: 2.2rem;
+}
+.avatar:hover {
+    margin: 3.2px 0px 0px 30px;
+    height: 2.2rem;
+    border: 1px solid orange;
+    border-radius: 50%;
+}
+.part2 {
+    display: flex;
+    padding: 4rem 3rem 0rem 3rem;
+}
+.container {
+    position: relative;
+}
+.mySlides {
+    display: none;
+}
+.cursor {
+    cursor: pointer;
+}
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0px 3px 3px 0px;
+    user-select: none;
+    -webkit-user-select: none;
+}
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.column {
+    float: left;
+    width: 16.66%;
+}
+.demo {
+    opacity: 1;
+}
+.active {
+    opacity: 0.2;
+}
+.demo:hover {
+    opacity: 0.6;
+}
+.cart-down {
+    display: flex;
+}
+.add-cart {
+    background-color: hsl(26, 100%, 55%);
+    color: hsl(0, 0%, 100%);
+    padding: 10px 40px;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
